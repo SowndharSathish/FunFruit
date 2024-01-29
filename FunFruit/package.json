@@ -1,0 +1,14 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "run": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
